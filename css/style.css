@@ -9,7 +9,7 @@ body{
 }
 /*///////////////////// sectio 1//////////////////// */
 .home{
-    background-image: url(../images/background2222.jpg);
+    background-image: url(../images/baakkkk.jpg);
     position: relative;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -132,7 +132,7 @@ body{
     left: 0;
 
     opacity:0 ;
-    background-color: blue; 
+    background-color: rgb(155, 178, 230); 
     
   
 }
@@ -149,22 +149,27 @@ position: relative;
 }
 .dropdown-list{
     position: absolute;
-    top: 40; right: 0; bottom: 0; left:10;
-    background-color: aliceblue;
+    top: 26; right: 0; bottom: 0; left:10;
+    background-color:rgb(216, 217, 220);
     width: 150px;
     height: 130PX;
     text-align: center;
-    border: 1px solid blue;
+    border: 1px solid rgb(156, 151, 151);
     border-radius: 10px;
     display: none;
+    transition: 100000s;
     line-height: 40px;
-   
+    transition: 5s; 
 }
+.dropdown-list:hover{
+    display: block;
+}
+
 .dropdown-list li{
     display: block;
     list-style: none;
     position: relative;
-    color:  rgb(68, 94, 197);
+    color:  rgb(67, 84, 124);
     cursor: pointer;
 }
 
@@ -182,7 +187,7 @@ position: relative;
     top:90%;
     left: 0;
 
-    background-color: blue;
+    background-color: rgb(155, 178, 230); 
     opacity: 0;
     
 }
@@ -388,7 +393,7 @@ position: relative;
 }
 .icons-featured1 i{
     background-color: #f6f6f6;
-    color: rgba(0, 0, 0, 0.7);
+    color:rgba(67, 84, 124,0.7);
     width: 50px;
     height: 30px;
     line-height: 30px;
@@ -630,7 +635,7 @@ a{
 }
 .item-img-sec6 i{
     font-size: 30px;
-    color:rgb(128, 128, 255);
+    color:rgb(128, 145, 186);
 }
 .item-img-sec6 .title-item-sec6{
     padding-top: 10px;
@@ -684,14 +689,14 @@ a{
     margin:5%  5%;
 }
 .circle-table{
-    border: 1px solid rgb(109, 109, 233);
+    border: 1px solid rgb(99, 99, 172);
     margin: 20px auto;
     width: 100px;
     height: 100px;
     border-radius: 50%;
 }
 .title-circle{
-    font-size: 40px;
+    font-size: 35px;
     margin-top:15px;
 }
 .p-item-table{
@@ -703,7 +708,7 @@ a{
     height: 30px;
     margin-top: 20px;
     border-radius: 10px;
-    border: 1px solid rgb(109, 109, 233);
+    border: 1px solid rgb(99, 99, 172);
 }
 .item-table:hover .title-item-table{
     color: rgb(2, 23, 160) ;
@@ -794,7 +799,7 @@ a{
 .p-item-img-sec8{
     padding-top: 9px;
     font-size: 20px;
-    color: rgb(160, 160, 245);
+    color: rgb(155, 178, 230) ;
 }
 .p-item{
     margin-top: 30px;
